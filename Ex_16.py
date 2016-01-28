@@ -8,11 +8,8 @@ print "If you do want that, hit RETURN."
 
 raw_input("?")
 
-print "Opening the file..."
+print "Opening (and truncating) the file..."
 target = open(filename, 'w')
-
-print "Truncating the file. Goodbye!"
-target.truncate()
 
 print "Now I'm going to ask you for three lines."
 
