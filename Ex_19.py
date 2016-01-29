@@ -1,3 +1,6 @@
+from math import log10
+
+
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print "You have %d cheeses!" % cheese_count
     print "You have %d boxes of crackers!" % boxes_of_crackers
@@ -23,7 +26,7 @@ cheese_and_crackers(10 + 20, 5 + 6)
 print "And we can combine the two, variables and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
-from math import log10
+
 def take_log(number):
     log_num = log10(number)
     print "The logarithm of %r is %r" % (number, log_num)
