@@ -6,7 +6,7 @@ script, input_file = argv
 def print_all(f):
     print f.read()
 
-# resetting cursor to start of file
+# resetting pointer to start of file (0)
 def rewind(f):
     f.seek(0)
 
