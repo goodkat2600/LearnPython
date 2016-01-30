@@ -27,3 +27,7 @@ for i in range(0, 6):
 # now we can print them out too
 for i in elements:
     print "Element was: %d" % i
+
+# make list without for-loop
+elements_2 = list(range(0, 6))
+print "List is now: ", elements_2
